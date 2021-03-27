@@ -1,20 +1,32 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      หน้าแรก 666
+      รัฐมนตรี
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <img src="https://s359.kapook.com/r/600/auto/pagebuilder/9c1eb190-0149-4e6e-a246-54b4aa427789.jpg" alt="">
-  <img src="https://thestandard.co/wp-content/uploads/2019/03/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%A3-%E0%B8%A7%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93.jpg" alt="">
-  <div id="box">
-    <div>ประยุทธ จันโอชา</div>
-    <div>ประวิต</div>
-    <div>ปารีณา</div>
-  </div>
+  <ion-item routerLink="/prayut">
+    <ion-avatar slot="start">
+      <img src="https://s359.kapook.com/r/600/auto/pagebuilder/9c1eb190-0149-4e6e-a246-54b4aa427789.jpg">
+    </ion-avatar>
+    <ion-label>ประยุทธ จันโอชา</ion-label>
+  </ion-item>
 
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://thestandard.co/wp-content/uploads/2019/03/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%A3-%E0%B8%A7%E0%B8%87%E0%B8%A9%E0%B9%8C%E0%B8%AA%E0%B8%B8%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93.jpg">
+    </ion-avatar>
+    <ion-label>ประวิต วงสุวรรน</ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://thaipublica.org/wp-content/uploads/2019/11/Screen-Shot-2019-11-15-at-3.00.09-PM-620x523.png">
+    </ion-avatar>
+    <ion-label>ปารีณา ไกรคุป</ion-label>
+  </ion-item>
 
 </ion-content>

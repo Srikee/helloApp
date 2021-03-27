@@ -10,7 +10,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'prayut',
+    loadChildren: () => import('./prayut/prayut.module').then( m => m.PrayutPageModule)
   },
+
 ];
 
 @NgModule({
